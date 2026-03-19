@@ -13,3 +13,48 @@ body {
 body {
   text-align: center;
 }
+body {
+  background: linear-gradient(to bottom, #ffe4ec, #fff0f5);
+  font-family: "Comic Sans MS", cursive;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 42px;
+  color: #ff8fb1;
+  margin-top: 30px;
+  text-shadow: 2px 2px white;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+button {
+  background-color: #ffc0cb;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 182, 193, 0.6);
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #ff9eb5;
+  transform: scale(1.1);
+}
+
+#catImg {
+  display: none;
+  margin: 20px auto;
+  width: 280px;
+  border-radius: 25px;
+  box-shadow: 0 10px 25px rgba(255, 182, 193, 0.7);
+  opacity: 0;
+  transition: 0.5s;
+}
