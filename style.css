@@ -2,9 +2,11 @@ body {
     background-color: #ffe4ec;
     text-align: center;
     font-family: Arial;
+
 }
 #catImg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: none;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 20px;
 }
