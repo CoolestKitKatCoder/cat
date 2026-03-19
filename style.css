@@ -3,3 +3,8 @@ body {
     text-align: center;
     font-family: Arial;
 }
+#catImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
