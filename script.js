@@ -1,19 +1,22 @@
 function showCat() {
-    document.getElementById("catText").style.display = "block";
-}
-function showCat() {
-  document.getElementById("catText").style.display = "block";
-  document.getElementById("catImg").style.display = "block";
-}
-
-function showCat() {
   let text = document.getElementById("catText");
   let img = document.getElementById("catImg");
+  let btn = document.querySelector("button");
 
+  // show elements
   text.style.display = "block";
   img.style.display = "block";
 
+  // trigger animations
   setTimeout(() => {
-    img.style.opacity = "1";
+    text.classList.add("show");
+    img.classList.add("show");
   }, 50);
+
+  // button bounce
+  btn.classList.add("clicked");
+  setTimeout(() => {
+    btn.classList.remove("clicked");
+  }, 400);
 }
+
